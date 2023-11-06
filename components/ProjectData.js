@@ -2,7 +2,7 @@ const projectData = [
     {
         title: 'AssetNexus',
         image: '/assets/AssetNexus.png',
-        description: 'Developed a comprehensive full stack Digital Asset Management(DAM) application for organisations designed to efficiently organize, store, and manage digital assets, including images, videos, audio and documents thus providing a centralized platform for asset storage, categorization, search, and retrieval'
+        description: 'Developed a comprehensive full stack Digital Asset Management(DAM) application for organisations designed to efficiently organize, store, and manage digital assets, including images, videos, audio and documents thus providing a centralized platform for asset storage, categorization, search, and retrieval.'
     },
     {
         title: 'Notify',

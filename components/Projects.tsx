@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useState } from 'react'
 import {motion} from 'framer-motion'
 import ProjectItem from './ProjectItem'
 import projectData from './ProjectData'
@@ -7,6 +7,7 @@ import projectData from './ProjectData'
 type Props = {}
 
 export default function Projects({ }: Props) {
+  const [projectState, setProjectState] = useState(projectData)
   return (
     <motion.div
     initial={{
@@ -49,7 +50,7 @@ export default function Projects({ }: Props) {
         duration: 1.5
       }}
       className="mt-7 w-full h-full flex overflow-x-scroll snap-mandatory snap-x z-20 scrollbar scrollbar-thumb-blue-400 scrollbar-track-[#262626]">
-        {projectData.map((details, index) => (
+        {projectState.map((details, index) => (
           <ProjectItem key={`${details.title}+${index}`} title={details.title} image={details.image} description={details.description} />
         ))}
       </motion.div>

@@ -68,11 +68,11 @@ export default function About({ }: Props) {
         <h2 className="text-center text-3xl font-bold lg:text-left">Here is a little about <span className="bg-white px-2 text-[#1f1f1f]">Me</span></h2>
         <div className="px-3 py-2 bg-[#eff2f5] rounded-lg">
           <p className="text-lg tracking-normal text-gray-800 font-bold max-h-[150px] lg:max-h-fit overflow-y-scroll lg:overflow-y-hidden scrollbar-thin scrollbar-thumb-gray-800 scrollbar-track-[#8a8a8a]">
-            Hi, I'm Gautam Sajwan, a 3rd-year B.Tech student at Graphic Era Hill University. I love working with technology and coding.<br/> I'm really good at C++, Javascript, C, and Java, and I'm comfortable with Python and SQL too.
+            Hi, I&apos;m Gautam Sajwan, a 3rd-year B.Tech student at Graphic Era Hill University. I love working with technology and coding.<br/> I&apos;m really good at C++, Javascript, C, and Java, and I&apos;m comfortable with Python and SQL too.
 
-            I am also pretty good at Full Stack Web Development and used to technologies related to frontend and backend like Routing, StateManagement, REST apis, RealTime communication etc. <br/> I'm also confident in Data Structures and Algorithms, which help me solve problems efficiently.
+            I&apos;m also pretty good at Full Stack Web Development and used to technologies related to frontend and backend like Routing, StateManagement, REST apis, RealTime communication etc. <br/> I&apos;m also confident in Data Structures and Algorithms, which help me solve problems efficiently.
 
-            I'm always eager to learn and improve. I'm excited about taking on new projects and challenges. Let's work together and create something great!
+            I&apos;m always eager to learn and improve. I&apos;m excited about taking on new projects and challenges. Let&apos;s work together and create something great!
           </p>
         </div>
       </motion.div>
