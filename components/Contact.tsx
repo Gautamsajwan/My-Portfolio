@@ -5,13 +5,6 @@ import { useForm, SubmitHandler } from "react-hook-form"
 
 type Props = {}
 
-// type Inputs = {
-//     name: string
-//     email: string
-//     subject: string
-//     body: string
-// }
-
 export default function Contact({ }: Props) {
     const { register, handleSubmit, formState: { errors } } = useForm({
         defaultValues: {

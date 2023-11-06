@@ -30,7 +30,7 @@ export default function Achievements({ }: Props) {
         {/* experience cards */}
         {
           exprData.map((details, index) => (
-            <ExpCard key={`${details.org}+${index}`} logo={details.logo} eventName={details.eventName} org={details.org} techStack={details.techStack} duration={details.duration} work={details.work}/>
+            <ExpCard key={`${details.org}+${index}`} logo={details.logo} eventName={details.eventName} org={details.org} duration={details.duration} work={details.work}/>
           ))
         }
       </div>
