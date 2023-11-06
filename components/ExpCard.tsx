@@ -22,11 +22,11 @@ export default function ExpCard({ logo, eventName, org, duration, work }: Props)
 
           <p className="text-black font-semibold mt-3 px-3 py-2 text-sm bg-gray-200 rounded-full">{duration}</p>
         </div>
-        <ul className="px-5 mt-3 list-disc space-y-3 flex-grow overflow-y-scroll scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-[#5a5a5a]">
+        {/* <ul className="px-5 mt-3 list-disc space-y-3 flex-grow overflow-y-scroll scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-[#5a5a5a]">
           {work.map((details, index) => (
             <li key={index}>{details}</li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </article>
   )

@@ -1,6 +1,5 @@
 "use client"
 import { motion } from 'framer-motion'
-import profilePic from '../public/assets/ProfileLG.png'
 import React from 'react'
 
 type Props = {}
@@ -41,7 +40,7 @@ export default function About({ }: Props) {
             type: 'spring',
             duration: 1.5,
           }}
-          className="w-full h-full rounded-full outline outline-[6px] xl:outline-[8px] object-contain" src={profilePic.src} alt="profile image" />
+          className="w-full h-full rounded-full outline outline-[6px] xl:outline-[8px] object-contain" src="/assets/ProfileLG.png" alt="profile image" />
 
           <div className="absolute top-2 rounded-full w-full h-full bg-gradient-to-r from-[#77f3b5]/80 from-[30%] to-[#41d1ff]/80 -z-10 blur-[40px]"></div>
           {/* <div className="absolute top-0 w-full h-[65%] bg-[rgb(26,26,26)] -z-10"></div> */}
