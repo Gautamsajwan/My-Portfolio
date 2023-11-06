@@ -28,8 +28,8 @@ export default function
       <p className="text-center absolute text-gray-200 top-3 sm:top-7 left-1/2 -translate-x-1/2">Hover over a skill to see proficiency</p>
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-[20px]">
         {
-          skillData.map(skill => (
-            <Skill directionLeft={skill.directionLeft} imageUrl={skill.imageUrl} proficiency={skill.proficiency} name={skill.name}/>
+          skillData.map((skill, index) => (
+            <Skill key={index} directionLeft={skill.directionLeft} imageUrl={skill.imageUrl} proficiency={skill.proficiency} name={skill.name}/>
           ))
         }
       </div>
