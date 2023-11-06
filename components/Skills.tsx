@@ -29,7 +29,7 @@ export default function
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-[20px]">
         {
           skillData.map((skill, index) => (
-            <Skill key={index} directionLeft={skill.directionLeft} imageUrl={skill.imageUrl} proficiency={skill.proficiency} name={skill.name}/>
+            <Skill key={`${skill.name}+${index}`} directionLeft={skill.directionLeft} imageUrl={skill.imageUrl} proficiency={skill.proficiency} name={skill.name}/>
           ))
         }
       </div>

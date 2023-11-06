@@ -50,7 +50,7 @@ export default function Projects({ }: Props) {
       }}
       className="mt-7 w-full h-full flex overflow-x-scroll snap-mandatory snap-x z-20 scrollbar scrollbar-thumb-blue-400 scrollbar-track-[#262626]">
         {projectData.map((details, index) => (
-          <ProjectItem key={index} title={details.title} image={details.image} description={details.description} />
+          <ProjectItem key={`${details.title}+${index}`} title={details.title} image={details.image} description={details.description} />
         ))}
       </motion.div>
     </motion.div>
