@@ -31,7 +31,11 @@ body {
   }
 
   .contactInput {
-    @apply outline-none px-4 py-3 rounded-md bg-[#262626]
+    @apply outline-none px-4 py-3 rounded-md bg-[#262626] w-full
+  }
+
+  .nav-sm {
+    @apply fixed py-7 flex-col h-screen bg-gray-800/50 top-0 left-0 w-[100px] items-center justify-start gap-7
   }
 }
 

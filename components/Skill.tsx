@@ -12,12 +12,12 @@ export default function Skill({ directionLeft, imageUrl, proficiency, name }: Pr
   return (
     <motion.div 
       initial={{
-        x: directionLeft ? -200 : 200,
+        y: directionLeft ? -200 : 200,
         opacity: 0,
         // scale: 0.5
       }}
       whileInView={{
-        x: 0,
+        y: 0,
         opacity: 1,
         // scale: 1
       }}
