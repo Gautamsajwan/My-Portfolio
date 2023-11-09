@@ -14,7 +14,7 @@ export default function Hero({ }: Props) {
     delaySpeed: 2000
   })
   return (
-    <div className="relative pt-16 font-montserrat font-bold h-screen flex flex-col items-center justify-center space-y-[2.5rem] overflow-hidden">
+    <div className="relative pt-16 font-montserrat font-bold h-screen flex flex-col items-center justify-center phone:justify-start space-y-[2.5rem] overflow-hidden">
       <BackgroundCircle />
       <div className="relative w-32 h-32 outline outline-[7px] outline-white/70 rounded-full ">
         <Image
@@ -27,8 +27,8 @@ export default function Hero({ }: Props) {
         <div className="absolute top-0 left-0 rounded-full w-full h-full bg-[#08AEEA] bg-gradient-to-r from-[#1cb8f1] to-[#4f2af5] -z-10 blur-[30px]"></div>
       </div>
       <div className="z-20">
-        <h1 className="pb-4 text-center uppercase tracking-[15px] text-[#616161]">Tech Enthusiast</h1>
-        <h1 className="text-center tracking-wide text-5xl">
+        <h1 className="text-sm pb-4 text-center uppercase tracking-[15px] text-[#616161]">Tech Enthusiast</h1>
+        <h1 className="text-center tracking-wide text-4xl h-[60px]">
           <span>{text}</span>
           <Cursor cursorColor='gray' />
         </h1>

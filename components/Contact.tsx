@@ -17,12 +17,12 @@ export default function Contact({ }: Props) {
 
     return (
         <div className="mx-auto p-3 max-w-7xl h-screen relative font-montserrat flex flex-col justify-center gap-5">
-            <h1 className="absolute top-16 phone:top-24 left-1/2 -translate-x-1/2 text-6xl font-sacramento font-bold text-center text-[#616161]">Contact</h1>
+            <h1 className="absolute top-16 phone:top-20 left-1/2 -translate-x-1/2 text-6xl font-sacramento font-bold text-center text-[#616161]">Contact</h1>
 
             <div className="mt-24 w-full flex flex-col justify-center items-center">
                 <h1 className="text-center text-2xl font-bold">I have just got the right skills you need <br/> Let&apos;s Talk !!!</h1>
 
-                <div className="mt-2 p-3 text-base flex flex-col outline-[2px] outline-dashed outline-blue-400 items-start rounded-lg space-y-4 font-bold tracking-wider">
+                <div className="mt-2 phone:w-full phone:p-2 phone:text-sm p-3 text-base flex flex-col outline-[2px] outline-dashed outline-blue-400 items-start rounded-lg space-y-4 font-semibold tracking-wider">
                     <div className="flex justify-center items-center">
                         <PhoneIcon className="w-7 h-7 mr-2 text-yellow-400" />
                         +91-8126194949

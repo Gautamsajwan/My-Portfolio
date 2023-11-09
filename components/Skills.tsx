@@ -24,8 +24,8 @@ export default function Skills({ }: Props) {
         duration: 1.5,
       }}
       className="h-screen font-montserrat relative flex flex-col justify-center items-center space-y-28">
-      <h1 className="absolute top-16 phone:top-24 left-1/2 -translate-x-1/2 text-6xl font-sacramento font-bold text-center text-[#616161]">Skills</h1>
-      <p className="text-center absolute text-gray-200 top-3 phone:top-10 sm:top-7 left-1/2 -translate-x-1/2">Hover over a skill to see proficiency</p>
+      <h1 className="absolute top-16 phone:top-20 left-1/2 -translate-x-1/2 text-6xl font-sacramento font-bold text-center text-[#616161]">Skills</h1>
+      <p className="text-center absolute text-gray-200 top-3 phone:top-7 sm:top-7 left-1/2 -translate-x-1/2">Hover over a skill to see proficiency</p>
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-[20px]">
         {
           skillState.map((skill, index) => (

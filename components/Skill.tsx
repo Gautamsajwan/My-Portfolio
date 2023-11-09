@@ -12,7 +12,7 @@ export default function Skill({ directionLeft, imageUrl, proficiency, name }: Pr
   return (
     <motion.div 
       initial={{
-        y: directionLeft ? -200 : 200,
+        y: directionLeft ? -100 : 100,
         opacity: 0,
         // scale: 0.5
       }}

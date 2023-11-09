@@ -24,8 +24,8 @@ export default function Projects({ }: Props) {
       duration: 1.5,
     }}
      className="h-screen font-montserrat relative flex flex-col justify-end phone:justify-center items-center space-y-28">
-      <h1 className="absolute top-16 phone:top-24 left-1/2 -translate-x-1/2 text-6xl font-sacramento font-bold text-center text-[#616161]">Projects</h1>
-      <p className="text-center absolute text-gray-200 top-6 phone:top-14 left-1/2 -translate-x-1/2">Click on a project to view</p>
+      <h1 className="absolute top-16 phone:top-20 left-1/2 -translate-x-1/2 text-6xl font-sacramento font-bold text-center text-[#616161]">Projects</h1>
+      <p className="w-full text-center absolute text-gray-200 top-6 phone:top-10 left-1/2 -translate-x-1/2">Click on a project to view</p>
 
       <motion.div
       initial={{

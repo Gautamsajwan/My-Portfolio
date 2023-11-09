@@ -7,7 +7,7 @@ const skillData = [
     },
     {
         name: 'Next-js',
-        imageUrl: '/assets/Nextjs.png',
+        imageUrl: '/assets/NextJS.png',
         proficiency: '65',
         directionLeft: true
     },
@@ -43,7 +43,7 @@ const skillData = [
     },
     {
         name: 'Node-js',
-        imageUrl: '/assets/nodeJS.png',
+        imageUrl: '/assets/NodeJS.png',
         proficiency: '70',
         directionLeft: false
     },

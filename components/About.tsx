@@ -21,9 +21,9 @@ export default function About({ }: Props) {
         duration: 1.5,
       }}
       className="relative z-20 mx-auto max-w-7xl px-7 h-screen font-montserrat flex flex-col lg:flex-row gap-x-[70px] justify-evenly items-center">
-      <h1 className="absolute top-16 phone:top-24 left-1/2 -translate-x-1/2 text-6xl font-sacramento font-bold text-center text-[#616161]">About</h1>
+      <h1 className="absolute top-16 phone:top-20 left-1/2 -translate-x-1/2 text-6xl font-sacramento font-bold text-center text-[#616161]">About</h1>
 
-      <div className="relative -mb-28 phone:-mb-32 lg:mb-0 w-64 h-64 flex-shrink-0 lg:w-[400px] lg:h-[400px]">
+      <div className="relative -mb-28 phone:-mb-32 lg:mb-0 w-64 h-64 phone:w-56 phone:h-56 flex-shrink-0 lg:w-[400px] lg:h-[400px]">
         <motion.img
           initial={{
             opacity: 0,
@@ -63,7 +63,7 @@ export default function About({ }: Props) {
         className="-mb-24 phone:-mb-28 lg:mb-0 space-y-3">
         <h2 className="text-center text-3xl font-bold lg:text-left">Here is a little about <span className="bg-white px-2 text-[#1f1f1f]">Me</span></h2>
         <div className="px-3 py-2 bg-[#eff2f5] rounded-lg">
-          <p className="text-lg tracking-normal text-gray-800 font-bold max-h-[150px] phone:max-h-[240px] lg:max-h-fit overflow-y-scroll lg:overflow-y-hidden scrollbar-thin scrollbar-thumb-gray-800 scrollbar-track-[#8a8a8a]">
+          <p className="text-lg tracking-normal text-gray-800 font-bold max-h-[150px] phone:max-h-[200px] lg:max-h-fit overflow-y-scroll lg:overflow-y-hidden scrollbar-thin scrollbar-thumb-gray-800 scrollbar-track-[#8a8a8a]">
             Hi, I&apos;m Gautam Sajwan, a 3rd-year B.Tech student at Graphic Era Hill University. I love working with technology and coding.<br/> I&apos;m really good at C++, Javascript, C, and Java, and I&apos;m comfortable with Python and SQL too.
 
             I&apos;m also pretty good at Full Stack Web Development and used to technologies related to frontend and backend like Routing, StateManagement, REST apis, RealTime communication etc. <br/> I&apos;m also confident in Data Structures and Algorithms, which help me solve problems efficiently.

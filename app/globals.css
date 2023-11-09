@@ -35,7 +35,7 @@ body {
   }
 
   .nav-sm {
-    @apply fixed py-7 flex-col h-screen bg-gray-800/50 top-0 left-0 w-[100px] items-center justify-start gap-7
+    @apply fixed py-7 flex-col h-screen bg-gray-800/90 top-0 left-0 w-[100px] items-center justify-start gap-7
   }
 }
 
