@@ -60,7 +60,7 @@ export default function About({ }: Props) {
           type: 'spring',
           duration: 1.5,
         }}
-        className="-mb-24 phone:-mb-28 lg:mb-0 space-y-3">
+        className="-mb-24 lg:mb-0 space-y-3">
         <h2 className="text-center text-3xl font-bold lg:text-left">Here is a little about <span className="bg-white px-2 text-[#1f1f1f]">Me</span></h2>
         <div className="px-3 py-2 bg-[#eff2f5] rounded-lg">
           <p className="text-lg tracking-normal text-gray-800 font-bold max-h-[150px] phone:max-h-[200px] lg:max-h-fit overflow-y-scroll lg:overflow-y-hidden scrollbar-thin scrollbar-thumb-gray-800 scrollbar-track-[#8a8a8a]">
