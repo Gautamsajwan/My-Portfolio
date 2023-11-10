@@ -27,7 +27,7 @@ export default function Header({}: Props) {
         type: "spring",
         duration: 1.5,
       }}
-      className="absolute -z-10 mr-2 -top-[39px] right-[2px] w-[180px] h-[100px] rounded-[35px] outline-dashed outline-red-400 outline-[3px]"></motion.div>
+      className="absolute -z-10 mr-2 -top-[44px] right-[3px] w-[175px] h-[100px] rounded-[35px] outline-dashed outline-red-400 outline-[2px]"></motion.div>
 
       {/* <div onClick={() => setShowLinks(false)} className={`${!showLinks && 'hidden -translate-x-100%'} fixed translate-x-0 left-0 top-0 w-screen h-screen transition-all ease-in-out`}> */}
         <div className={`${showLinks? 'translate-x-0' : 'phone:-translate-x-[100%]'} phone:nav-sm gap-5 flex justify-center items-center transition-all ease-in-out`}>
@@ -55,7 +55,7 @@ export default function Header({}: Props) {
         type: "spring",
         duration: 1.5,
       }}
-      className="mr-2 p-2 flex gap-1 text-[rgb(26,26,26)] font-semibold rounded-full items-center bg-white cursor-pointer hover:bg-red-300 hover:scale-125">
+      className="mr-2 p-[7px] flex gap-1 text-[rgb(26,26,26)] font-semibold rounded-full items-center bg-white cursor-pointer hover:bg-red-300 hover:scale-125">
         <DocumentTextIcon className="w-7 bg-red-400 rounded-full p-[2px]"/>
         <a href="/assets/Gautam_Sajwan_Resume.pdf" download="Gautam_Sajwan_Resume.pdf">Download CV</a>
       </motion.div>

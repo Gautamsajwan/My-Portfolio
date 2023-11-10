@@ -23,7 +23,7 @@ export default function About({ }: Props) {
       className="relative z-20 mx-auto max-w-7xl px-7 h-screen font-montserrat flex flex-col lg:flex-row gap-x-[70px] justify-evenly items-center">
       <h1 className="absolute top-16 phone:top-20 left-1/2 -translate-x-1/2 text-6xl font-sacramento font-bold text-center text-[#616161]">About</h1>
 
-      <div className="relative -mb-28 phone:-mb-32 lg:mb-0 w-64 h-64 phone:w-56 phone:h-56 flex-shrink-0 lg:w-[400px] lg:h-[400px]">
+      <div className="relative -mb-28 phone:-mb-32 lg:mb-0 w-64 h-64 phone:w-52 phone:h-52 flex-shrink-0 lg:w-[400px] lg:h-[400px]">
         <motion.img
           initial={{
             opacity: 0,

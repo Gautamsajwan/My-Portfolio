@@ -25,7 +25,7 @@ const skillData = [
     },
     {
         name: 'Typescript',
-        imageUrl: '/assets/Typescript.png',
+        imageUrl: '/assets/typescript.png',
         proficiency: '70',
         directionLeft: true
     },
