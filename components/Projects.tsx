@@ -25,7 +25,7 @@ export default function Projects({ }: Props) {
     }}
      className="h-screen font-montserrat relative flex flex-col justify-end phone:justify-center items-center space-y-28">
       <h1 className="absolute top-16 phone:top-20 left-1/2 -translate-x-1/2 text-6xl font-sacramento font-bold text-center text-[#616161]">Projects</h1>
-      <p className="w-full text-center absolute text-gray-200 top-6 phone:top-10 left-1/2 -translate-x-1/2">Click on a project to view</p>
+      <p className="w-full text-center absolute text-gray-200 top-6 phone:top-10 left-1/2 -translate-x-1/2">Click on the project image to view</p>
 
       <motion.div
       initial={{
@@ -44,7 +44,7 @@ export default function Projects({ }: Props) {
         delay: 0.2,
         duration: 1.5
       }}
-      className="w-full h-fit flex overflow-x-scroll snap-mandatory snap-x z-20 scrollbar scrollbar-thumb-blue-400 scrollbar-track-[#262626]">
+      className="w-full h-fit flex overflow-x-scroll snap-mandatory snap-x z-20 scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-[#262626]">
         {projectState.map((details, index) => (
           <ProjectItem key={`${details.title}+${index}`} title={details.title} image={details.image} description={details.description} link={details.link}/>
         ))}

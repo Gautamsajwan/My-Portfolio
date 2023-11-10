@@ -8,7 +8,7 @@ import Skills from '@/components/Skills'
 
 export default function Home() {
   return (
-    <div className="h-screen overflow-y-scroll scrollbar scrollbar-thumb-blue-400 scrollbar-track-[#262626] overflow-hidden snap-y snap-mandatory z-0 scroll-smooth">
+    <div className="h-screen overflow-y-scroll scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-[#262626] overflow-hidden snap-y snap-mandatory z-0 scroll-smooth">
     {/* <div className="overflow-hidden snap-y snap-mandatory z-0"> */}
       <Header/>
       

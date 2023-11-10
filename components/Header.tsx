@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { SiGeeksforgeeks, SiLeetcode } from 'react-icons/si'
 import { CgDetailsMore } from 'react-icons/cg'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
+import { MdFileDownload } from 'react-icons/md'
 import { FaGithub, FaLinkedinIn, FaXTwitter } from 'react-icons/fa6'
 import { DocumentTextIcon } from '@heroicons/react/24/outline'
 import { motion } from 'framer-motion'
@@ -13,21 +14,7 @@ export default function Header({}: Props) {
   const [showLinks, setShowLinks] = useState(false)
 
   return (
-    <header className="py-2 px-3 bg-[rgb(26,26,26)] sticky top-0 flex justify-between items-center font-montserrat max-w-7xl mx-auto z-40">
-      <motion.div
-      initial= {{
-        y: -300,
-        opacity: 0
-      }}
-      animate={{
-        y: 0,
-        opacity: 1
-      }}
-      transition={{
-        type: "spring",
-        duration: 1.5,
-      }}
-      className="absolute -z-10 mr-2 -top-[44px] right-[3px] w-[175px] h-[100px] rounded-[35px] outline-dashed outline-red-400 outline-[2px]"></motion.div>
+    <header className="py-2 px-2 bg-[rgb(26,26,26)] sticky top-0 flex justify-between items-center font-montserrat max-w-7xl mx-auto z-40">
 
       {/* <div onClick={() => setShowLinks(false)} className={`${!showLinks && 'hidden -translate-x-100%'} fixed translate-x-0 left-0 top-0 w-screen h-screen transition-all ease-in-out`}> */}
         <div className={`${showLinks? 'translate-x-0' : 'phone:-translate-x-[100%]'} phone:nav-sm gap-5 flex justify-center items-center transition-all ease-in-out`}>
@@ -40,25 +27,15 @@ export default function Header({}: Props) {
         </div>
       {/* </div> */}
 
-      <div><CgDetailsMore onClick={() => setShowLinks(true)} className={`ml-1 text-2xl hidden ${showLinks? 'phone:hidden': 'phone:block'}`}/></div>
+      <div><CgDetailsMore onClick={() => setShowLinks(true)} className={`ml-1 text-3xl hidden ${showLinks? 'phone:hidden': 'phone:block'}`}/></div>
 
-      <motion.div 
-      initial= {{
-        x: 300,
-        opacity: 0
-      }}
-      animate={{
-        x: 0,
-        opacity: 1
-      }}
-      transition={{
-        type: "spring",
-        duration: 1.5,
-      }}
-      className="mr-2 p-[7px] flex gap-1 text-[rgb(26,26,26)] font-semibold rounded-full items-center bg-white cursor-pointer hover:bg-red-300 hover:scale-125">
-        <DocumentTextIcon className="w-7 bg-red-400 rounded-full p-[2px]"/>
+      <div className="group p-2 text-sm flex gap-1 font-semibold rounded-full items-center bg-gray-800 cursor-pointer">
+        <div className="relative w-7 h-7">
+          <DocumentTextIcon className="absolute text-2xl text-red-500 group-hover:translate-y-4 group-hover:opacity-0 transition-all duration-150"/>
+          <MdFileDownload className="absolute text-3xl text-blue-500 -translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-150"/>
+        </div>
         <a href="/assets/Gautam_Sajwan_Resume.pdf" download="Gautam_Sajwan_Resume.pdf">Download CV</a>
-      </motion.div>
+      </div>
     </header>
   )
 }

@@ -1,7 +1,7 @@
 const expData = [
     {   
         logo: '/assets/upes_logo.jpg',
-        eventName: 'U-Hackathon 4.0 META',
+        eventName: 'U-Hackathon 4.0',
         org: 'University of Petroleum Energy Studies',
         techStack: 'React, Vite, Mongodb, Express js, webSockets, webRTC',
         duration: 'Aug, 2023 - Sep, 2023',
