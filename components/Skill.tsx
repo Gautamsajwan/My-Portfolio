@@ -45,7 +45,7 @@ export default function Skill({ directionLeft, imageUrl, proficiency, name }: Pr
         <img className="w-full h-full object-contain p-2 group-hover:blur-[1.5px] group-hover:brightness-[0.7] transition-all duration-200 ease-in-out" src={imageUrl} alt="skill img" />
       </div>
       
-      <div className="w-[98px] h-[98px] rounded-lg absolute flex flex-col justify-center items-center text-lg top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold opacity-0 group-hover:opacity-100 group-hover:backdrop-brightness-50 transition-all duration-200 ease-in-out">
+      <div className="w-full h-full rounded-lg absolute flex flex-col justify-center items-center text-lg top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold opacity-0 group-hover:opacity-100 group-hover:backdrop-brightness-50 transition-all duration-200 ease-in-out">
         <h3 className="text-sm text-center font-normal tracking-wider">{name}</h3>
         <p>{proficiency}%</p>
       </div>
