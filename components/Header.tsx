@@ -14,10 +14,10 @@ export default function Header({}: Props) {
   const [showLinks, setShowLinks] = useState(false)
 
   return (
-    <header className="py-2 px-2 bg-[rgb(26,26,26)] sticky top-0 flex justify-between items-center font-montserrat max-w-7xl mx-auto z-40">
+    <header className="py-2 px-3 bg-[rgb(26,26,26)] sticky top-0 flex justify-between items-center font-montserrat max-w-7xl mx-auto z-40">
 
       {/* <div onClick={() => setShowLinks(false)} className={`${!showLinks && 'hidden -translate-x-100%'} fixed translate-x-0 left-0 top-0 w-screen h-screen transition-all ease-in-out`}> */}
-        <div className={`${showLinks? 'translate-x-0' : 'phone:-translate-x-[100%]'} phone:nav-sm gap-5 flex justify-center items-center transition-all ease-in-out`}>
+        <div className={`${showLinks? 'translate-x-0' : 'phone:-translate-x-[100%]'} phone:nav-sm gap-6 flex justify-center items-center transition-all ease-in-out`}>
           <AiOutlineCloseCircle onClick={() => setShowLinks(false)} className={`${showLinks? 'block' : 'hidden'} text-4xl`}/>
           <a href="https://www.linkedin.com/in/gautam-sajwan-b44179217/"><FaLinkedinIn className="phone:text-4xl text-2xl text-blue-400"/></a>
           <a href="https://github.com/Gautamsajwan"><FaGithub className="phone:text-4xl text-2xl text-purple-500"/></a>
