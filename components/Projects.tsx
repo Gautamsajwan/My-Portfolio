@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import {motion} from 'framer-motion'
 import ProjectItem from './ProjectItem'
-import projectData from './ProjectData'
+import {projectData} from '../constants'
 
 type Props = {}
 

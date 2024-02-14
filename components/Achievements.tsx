@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import ExpCard from './ExpCard'
-import expData from './ExperienceData'
+import {expData} from '../constants'
 
 type Props = {}
 

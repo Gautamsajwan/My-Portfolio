@@ -17,8 +17,8 @@ export default function ProjectItem({ title, image, description, link }: Props) 
 
             <h1 className="text-4xl mt-5 font-bold">{title}</h1>
 
-            <div className="w-full mt-5 p-3 text-gray-900 font-semibold rounded-lg bg-[rgb(238,247,255)]/80">
-                <p className="text-lg text-center h-[120px] phone:h-[200px] overflow-hidden overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-[#242424]">{description}</p>
+            <div className="w-full mt-5 p-3 text-gray-900 font-semibold rounded-lg bg-[rgb(231,240,248)]">
+                <p className="text-lg text-center h-[120px] phone:h-[200px] overflow-hidden overflow-y-auto exceeding-light">{description}</p>
             </div>
         </div>
     )

@@ -44,3 +44,18 @@ body {
     @apply scroll-smooth;
   }
 }
+
+.exceeding-dark::-webkit-scrollbar,
+.exceeding-light::-webkit-scrollbar {
+  width: 10px;
+}
+
+.exceeding-dark::-webkit-scrollbar-thumb {
+  background-color: #d7dbe0d2;
+  border-radius: 5px;
+}
+
+.exceeding-light::-webkit-scrollbar-thumb {
+  background-color: #76797cd2;
+  border-radius: 5px;
+}

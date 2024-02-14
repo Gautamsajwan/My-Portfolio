@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Skill from './Skill'
 import {motion} from 'framer-motion'
-import skillData from './SkillData.js'
+import {skillData} from '../constants'
 
 type Props = {}
 
