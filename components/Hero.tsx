@@ -36,16 +36,16 @@ export default function Hero({ }: Props) {
 
       <div className="z-20 md:space-x-10 text-sm flex flex-wrap justify-center items-center gap-5">
         <Link href="#about">
-          <button className="navButtons">About</button>
+          <button className="navButtons hover:outline-red-500 hover:text-red-500">About</button>
         </Link>
         <Link href="#experience">
-          <button className="navButtons">Achievements</button>
+          <button className="navButtons hover:outline-blue-500 hover:text-blue-500">Achievements</button>
         </Link>
         <Link href="#skills">
-          <button className="navButtons">Skills</button>
+          <button className="navButtons hover:outline-green-500 hover:text-green-500">Skills</button>
         </Link>
         <Link href="#projects">
-          <button className="navButtons">Projects</button>
+          <button className="navButtons hover:outline-purple-500 hover:text-purple-500">Projects</button>
         </Link>
       </div>
     </div>
