@@ -63,7 +63,7 @@ export default function About({ }: Props) {
         className="-mb-24 lg:mb-0 space-y-3">
         <h2 className="text-center text-3xl font-bold lg:text-left">Here is a little about <span className="bg-white px-2 text-[#1f1f1f]">Me</span></h2>
         <div className="px-3 py-2 bg-[#eff2f5] rounded-lg">
-          <p className="text-lg tracking-normal text-gray-800 font-bold max-h-[150px] phone:max-h-[200px] lg:max-h-[350px] overflow-y-auto exceeding-light">
+          <p className="text-lg tracking-normal text-gray-800 font-bold max-h-[150px] phone:max-h-[200px] lg:max-h-[450px] overflow-y-auto exceeding-light">
           Hello, my name is Gautam Sajwan, currently a third-year B.Tech student at Graphic Era Hill University. My passion lies in leveraging technology and coding to innovate and solve real-world problems.<br/>
 
           Proficient in languages such as C++, JavaScript, C, and Java, I also have a solid foundation in Python and SQL. With a keen interest in Full Stack Web Development, I have gained extensive experience in frontend and backend technologies/frameworks including React.js, Tailwind CSS, Next.js, Express.js, MongoDB, Typescript and WebSockets.<br/>
