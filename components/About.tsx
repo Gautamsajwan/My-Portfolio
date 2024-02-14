@@ -40,7 +40,7 @@ export default function About({ }: Props) {
             type: 'spring',
             duration: 1.5,
           }}
-          className="w-full h-full rounded-full border-8 lg:border-[10px] border-t-red-500 border-l-green-500 border-b-purple-400 border-r-blue-500 object-contain" src="/assets/ProfileLG.png" alt="profile image" />
+          className="w-full h-full rounded-full border-8 lg:border-[10px] border-t-red-500 border-l-green-500 border-b-purple-500 border-r-blue-500 object-contain" src="/assets/ProfileLG.png" alt="profile image" />
           <div className="absolute top-2 rounded-full w-full h-full bg-gradient-to-r from-[#77f3b5]/80 from-[30%] to-[#41d1ff]/80 -z-10 blur-[40px]"></div>
       </div>
 
