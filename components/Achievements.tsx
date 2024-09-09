@@ -7,7 +7,6 @@ import {expData} from '../constants'
 type Props = {}
 
 export default function Achievements({ }: Props) {
-  const [exprData, setexprData] = useState(expData)
   return (
     <motion.div
       initial={{
@@ -29,7 +28,7 @@ export default function Achievements({ }: Props) {
       <div className="py-5 px-2 phone:py-3 w-full h-[80%] phone:h-[75%] flex gap-5 items-center overflow-hidden overflow-x-scroll scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-[#262626] snap-x snap-mandatory">
         {/* experience cards */}
         {
-          exprData.map((details, index) => (
+          expData.map((details, index) => (
             <ExpCard key={`${details.org}+${index}`} logo={details.logo} eventName={details.eventName} org={details.org} duration={details.duration} work={details.work}/>
           ))
         }
